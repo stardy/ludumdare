@@ -20,6 +20,8 @@ public class GroundMoving : MonoBehaviour
     {
         if (isGroundMoving)
         {
+            //test
+
             var temp = GetComponent<Renderer>().material.mainTextureOffset;
             temp.x += speed*Time.deltaTime;
             GetComponent<Renderer>().material.mainTextureOffset = temp;
